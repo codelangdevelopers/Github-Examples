@@ -3,7 +3,7 @@ name: Depenendent Jobs Example
 on: ['push']
 jobs:
   my-dep-job2:
-    needs: my-dep-job1
+    
     runs-on: ubuntu-latest
     steps:
       - name: stepB
